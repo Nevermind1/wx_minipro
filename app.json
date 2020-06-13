@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/about/about",
+    "pages/profile/profile",
+    "pages/category/category",
+    "pages/shopping/shopping"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "老祖安人了",
+    "backgroundColor": "blue",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assects/tabbar/home.png",
+        "selectedIconPath": "assects/tabbar/home_active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "assects/tabbar/fenlei.png",
+        "selectedIconPath": "assects/tabbar/fenlei_active.png"
+      },
+      {
+        "pagePath": "pages/shopping/shopping",
+        "text": "购物车",
+        "iconPath": "assects/tabbar/shopping.png",
+        "selectedIconPath": "assects/tabbar/shopping_active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "主页",
+        "iconPath": "assects/tabbar/profile.png",
+        "selectedIconPath": "assects/tabbar/profile_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap17.json"
+}

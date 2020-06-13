@@ -1,0 +1,9 @@
+<!--pages/home/home.wxml-->
+<!-- <text>pages/home/home.wxml</text> -->
+<view>Hello{{name}}</view>
+
+<view wx:for="{{student}}">{{item.name}}--{{item.age}}</view>
+
+<button size="mini" bindtap="add">+</button>
+<view>当前count的值为：{{count}}</view>
+<button size="mini" bindtap="jian">-</button>
