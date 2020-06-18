@@ -1,1 +1,4 @@
 /* pages/home/home.wxss */
+.touxiang{
+  height: 100em;
+}

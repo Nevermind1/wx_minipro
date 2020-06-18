@@ -7,3 +7,9 @@
 <button size="mini" bindtap="add">+</button>
 <view>当前count的值为：{{count}}</view>
 <button size="mini" bindtap="jian">-</button>
+
+<button size="mini"
+open-type="getUserInfo"
+bindgetuserinfo="getUser"
+>获取授权</button>
+<open-data type="userAvatarUrl" class="touxiang"></open-data>

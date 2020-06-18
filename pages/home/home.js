@@ -9,6 +9,9 @@ Page({
     ],
     count:0
   },
+  getUser(event){
+    console.log(event)
+  },
 
     add(){
       this.setData({
